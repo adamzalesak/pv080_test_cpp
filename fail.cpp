@@ -1,11 +1,11 @@
 #include <iostream>
 int Static[5];
 int memcheckFailDemo(int* arrayStack, unsigned int arrayStackLen, 
-	int* arrayHeap, unsigned int arrayHeapLen) {
+  int* arrayHeap, unsigned int arrayHeapLen) {
   int Stack[5];
 
-  Static[100] = 0; 
-  Stack[100] = 0; 
+  // Static[100] = 0;
+  // Stack[100] = 0; 
 
   for (int i = 0; i <= 5; i++) Stack [i] = 0;
 
